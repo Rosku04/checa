@@ -1,0 +1,87 @@
+body
+{   
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: rgb(252, 181, 189);
+}
+button {
+    font-size: 20px ;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(250, 91, 118);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+
+  button:hover {
+    background-color: rgb(240, 73, 101);
+  }
+  
+
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  header img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; 
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .pytanko {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+ 
+  #escapingButton {
+    font-size: 20px ;
+    background-color: rgb(250, 91, 118);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: transform 0.7s ease; 
+  }
+  
+  #escapingButton:hover {
+    background-color: rgb(240, 73, 101);
+  }
+  
+  #escapingButton {
+    position: absolute;
+    left: calc(50% + 40px); 
+    top: calc(50% - 128px); 
+  }
+
+.przyciski{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+#showGifButton{
+    position: absolute;
+    left: calc(50% - 120px); 
+    top: calc(50% - 128px); 
+}
+.tak{
+    display: none;
+}
+#gifContainer{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.wszystko{
+    display: block;
+}
